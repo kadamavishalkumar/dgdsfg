@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RMMoviePlayerController.h"
 
-@interface RMViewController : UIViewController
+
+@interface RMViewController : RMMoviePlayerController
 
 @end

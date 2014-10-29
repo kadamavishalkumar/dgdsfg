@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C239E7E51A001628006A707C /* RMMoviePlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = C239E7E41A001628006A707C /* RMMoviePlayerController.m */; };
+		C239E7E71A001A89006A707C /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C239E7E61A001A89006A707C /* MediaPlayer.framework */; };
 		C29D8E0219F9A91A00A99FD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C29D8E0119F9A91A00A99FD9 /* Foundation.framework */; };
 		C29D8E0419F9A91B00A99FD9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C29D8E0319F9A91B00A99FD9 /* CoreGraphics.framework */; };
 		C29D8E0619F9A91B00A99FD9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C29D8E0519F9A91B00A99FD9 /* UIKit.framework */; };
@@ -22,6 +24,9 @@
 		C29D8E2619F9A91B00A99FD9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C29D8E0519F9A91B00A99FD9 /* UIKit.framework */; };
 		C29D8E2E19F9A91B00A99FD9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C29D8E2C19F9A91B00A99FD9 /* InfoPlist.strings */; };
 		C29D8E3019F9A91B00A99FD9 /* RoamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C29D8E2F19F9A91B00A99FD9 /* RoamTests.m */; };
+		C29D8E3C19F9A9E000A99FD9 /* RMLocationSevices.m in Sources */ = {isa = PBXBuildFile; fileRef = C29D8E3B19F9A9E000A99FD9 /* RMLocationSevices.m */; };
+		C29D8E3E19F9AABC00A99FD9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C29D8E3D19F9AABC00A99FD9 /* CoreLocation.framework */; };
+		C2B415911A0090BD008AE6A0 /* Movie.m4v in Resources */ = {isa = PBXBuildFile; fileRef = C2B415901A0090BD008AE6A0 /* Movie.m4v */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C239E7E31A001628006A707C /* RMMoviePlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMMoviePlayerController.h; sourceTree = "<group>"; };
+		C239E7E41A001628006A707C /* RMMoviePlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMMoviePlayerController.m; sourceTree = "<group>"; };
+		C239E7E61A001A89006A707C /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		C29D8DFE19F9A91A00A99FD9 /* Roam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C29D8E0119F9A91A00A99FD9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C29D8E0319F9A91B00A99FD9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,6 +63,10 @@
 		C29D8E2B19F9A91B00A99FD9 /* RoamTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RoamTests-Info.plist"; sourceTree = "<group>"; };
 		C29D8E2D19F9A91B00A99FD9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C29D8E2F19F9A91B00A99FD9 /* RoamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoamTests.m; sourceTree = "<group>"; };
+		C29D8E3A19F9A9E000A99FD9 /* RMLocationSevices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMLocationSevices.h; sourceTree = "<group>"; };
+		C29D8E3B19F9A9E000A99FD9 /* RMLocationSevices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMLocationSevices.m; sourceTree = "<group>"; };
+		C29D8E3D19F9AABC00A99FD9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C2B415901A0090BD008AE6A0 /* Movie.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = Movie.m4v; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +74,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C239E7E71A001A89006A707C /* MediaPlayer.framework in Frameworks */,
+				C29D8E3E19F9AABC00A99FD9 /* CoreLocation.framework in Frameworks */,
 				C29D8E0419F9A91B00A99FD9 /* CoreGraphics.framework in Frameworks */,
 				C29D8E0619F9A91B00A99FD9 /* UIKit.framework in Frameworks */,
 				C29D8E0219F9A91A00A99FD9 /* Foundation.framework in Frameworks */,
@@ -103,6 +117,8 @@
 		C29D8E0019F9A91A00A99FD9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C239E7E61A001A89006A707C /* MediaPlayer.framework */,
+				C29D8E3D19F9AABC00A99FD9 /* CoreLocation.framework */,
 				C29D8E0119F9A91A00A99FD9 /* Foundation.framework */,
 				C29D8E0319F9A91B00A99FD9 /* CoreGraphics.framework */,
 				C29D8E0519F9A91B00A99FD9 /* UIKit.framework */,
@@ -116,10 +132,14 @@
 			children = (
 				C29D8E1019F9A91B00A99FD9 /* RMAppDelegate.h */,
 				C29D8E1119F9A91B00A99FD9 /* RMAppDelegate.m */,
+				C29D8E3A19F9A9E000A99FD9 /* RMLocationSevices.h */,
+				C29D8E3B19F9A9E000A99FD9 /* RMLocationSevices.m */,
 				C29D8E1319F9A91B00A99FD9 /* Main_iPhone.storyboard */,
 				C29D8E1619F9A91B00A99FD9 /* Main_iPad.storyboard */,
 				C29D8E1919F9A91B00A99FD9 /* RMViewController.h */,
 				C29D8E1A19F9A91B00A99FD9 /* RMViewController.m */,
+				C239E7E31A001628006A707C /* RMMoviePlayerController.h */,
+				C239E7E41A001628006A707C /* RMMoviePlayerController.m */,
 				C29D8E1C19F9A91B00A99FD9 /* Images.xcassets */,
 				C29D8E0819F9A91B00A99FD9 /* Supporting Files */,
 			);
@@ -129,6 +149,7 @@
 		C29D8E0819F9A91B00A99FD9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C2B415901A0090BD008AE6A0 /* Movie.m4v */,
 				C29D8E0919F9A91B00A99FD9 /* Roam-Info.plist */,
 				C29D8E0A19F9A91B00A99FD9 /* InfoPlist.strings */,
 				C29D8E0D19F9A91B00A99FD9 /* main.m */,
@@ -236,6 +257,7 @@
 				C29D8E1D19F9A91B00A99FD9 /* Images.xcassets in Resources */,
 				C29D8E1519F9A91B00A99FD9 /* Main_iPhone.storyboard in Resources */,
 				C29D8E0C19F9A91B00A99FD9 /* InfoPlist.strings in Resources */,
+				C2B415911A0090BD008AE6A0 /* Movie.m4v in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,9 +276,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C29D8E3C19F9A9E000A99FD9 /* RMLocationSevices.m in Sources */,
 				C29D8E0E19F9A91B00A99FD9 /* main.m in Sources */,
 				C29D8E1219F9A91B00A99FD9 /* RMAppDelegate.m in Sources */,
 				C29D8E1B19F9A91B00A99FD9 /* RMViewController.m in Sources */,
+				C239E7E51A001628006A707C /* RMMoviePlayerController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,6 +495,7 @@
 				C29D8E3519F9A91B00A99FD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C29D8E3619F9A91B00A99FD9 /* Build configuration list for PBXNativeTarget "RoamTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +504,7 @@
 				C29D8E3819F9A91B00A99FD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
